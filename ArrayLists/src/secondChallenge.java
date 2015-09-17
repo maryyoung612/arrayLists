@@ -25,11 +25,11 @@ public class secondChallenge
 		public static void check()
 			{
 			Double counter=0.0;
-			for(int i=0;i>secondChallenge.temp.size();i++)
+			for(int i=0;i<secondChallenge.temp.size();i++)
 				{
-				if(secondChallenge.temp.get(i)>=98.6)
+				if(secondChallenge.temp.get(i)>98.6)
 					{
-					counter=counter+secondChallenge.temp.get(i);
+					counter++;
 					}
 				}
 			System.out.println(counter+ " many people have fevers");
